@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <script src="js/canvasinput_2.js"></script>
+    <script src='js/JareUtils.js'></script>
+    <script src='js/Menu.js'></script>
+    <script src='js/User.js'></script>
+    <script src='js/Timeline.js'></script>
+    <script src='js/Statistics.js'></script>
+    <script src='js/Message.js'></script>
+    <script src='js/Game.js'></script>
+    <script src='js/Player.js'></script>
+    <script src='js/Bomb.js'></script>
+    <script src='js/Fire.js'></script>
+    <script src='js/Enemy.js'></script>
+    <script src='js/FieldElement.js'></script>
+    <script src='js/Bonus.js'></script>
+    <script src='js/Spritesheet.js'></script>
+    <script src='js/checkForCollision.js'></script>
+    <script src='js/AudioManager.js'></script>
+    <script src='js/InputManager.js'></script>
+    <script src='js/FPSMeter.js'></script>
+    <script src='js/GameLoopManager.js'></script>
+    <script src='js/GameEngine.js'></script>
+
+    <style>
+        #screen { display:block; margin:0 auto; background-color: #777777}
+    </style>
+</head>
+<body>
+    <canvas id='screen' width='800' height='463' style="display: inline-block;"></canvas>
+    <input type="text" id="messageText" style="position:fixed; height: 6.5%; width: 46%; left: 1%; top: 90%; display: none;"/>
+    <input type="button" id="sendMessage" style="position:fixed; width: 5%; height: 7.3%; top: 90%; left: 48%; display: none;" value="Send"/>
+    <div id="userList" style="display: none">
+        <table>
+            <tbody></tbody>
+        </table>
+    </div>
+    <div id="titleTimer" style="display: none; font-size: 40px;">Time: </div>
+    <div id="timer" style="display: none; font-size: 40px;"></div>
+</body>
+</html>

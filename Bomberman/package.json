@@ -1,0 +1,24 @@
+{
+  "name": "bomberman",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "bin": {
+    "bomberman": "www.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "moment": "^2.11.1",
+    "mongodb": "^2.1.4",
+    "monk": "^1.0.1",
+    "password-hash": "^1.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
